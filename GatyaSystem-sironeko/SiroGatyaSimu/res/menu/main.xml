@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+		<item
+		    android:id="@+id/action_detail" 
+		    android:icon="@android:drawable/ic_menu_help" 
+		    app:showAsAction="ifRoom" 
+		    android:title="@string/action_detail">
+		</item>
+		 
+		<item
+   		    android:id="@+id/action_setting"
+		    android:icon="@android:drawable/ic_menu_preferences" 
+		    app:showAsAction="ifRoom" 
+		    android:title="@string/action_setting">
+		</item>
+</menu>
